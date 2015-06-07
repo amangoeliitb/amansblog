@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Aman\'s Blog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">Aman\'s Blog</string>
+    <color name="purple">#9C27B0</color>
+    <string name="action_share">Share</string>
+</resources>
