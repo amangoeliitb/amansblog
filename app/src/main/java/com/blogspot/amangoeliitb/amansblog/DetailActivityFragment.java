@@ -49,7 +49,7 @@ public class DetailActivityFragment extends Fragment {
         int month = Integer.parseInt(m) ;
         String[] months = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"} ;
         Log.v(LOG_TAG, y + " " + m + " " + d) ;
-        return months[month] + " " + d + ", " + y ;
+        return months[month - 1] + " " + d + ", " + y ;
     }
 
     @Override

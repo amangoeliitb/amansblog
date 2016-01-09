@@ -97,6 +97,9 @@ public class MainActivityFragment extends Fragment {
             titlesoftheposts = mydb.getAllTitles();
             contentsoftheposts = mydb.getAllContents();
             dateoftheposts = mydb.getAlldates();
+            for(int i = 0 ; i < titlesoftheposts.size() ; i++) {
+                Log.v(titlesoftheposts.get(i), dateoftheposts.get(i));
+            }
         }
         else {
             Log.v(TAG, "Creating the database") ;
